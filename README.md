@@ -17,7 +17,7 @@ Download and open the TEMPLATE.INO file with Arduino app.
 connect your esp8266 to upload template then go to tools > port the ESP should be visible with the projectName.
 
 ## TelnetStream Usage
-To connect to the telnet output use a telnet client such as [Putty](https://www.putty.org) with the ip or projectName.local.
+To connect to the telnet output use a telnet client such as [Putty](https://www.putty.org) with the ip:23 or projectName.local:23.
 
 
 
