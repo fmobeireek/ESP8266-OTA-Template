@@ -15,7 +15,7 @@ void setup() {
   
   setupOTA("HOST_NAME");
 
-  Serial.println();
+  
   Serial.println("Connected to WiFi network.");
   Serial.print("Connect with Telnet client to ");
   Serial.println(WiFi.localIP());
