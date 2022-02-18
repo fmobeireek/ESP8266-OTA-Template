@@ -18,7 +18,7 @@ void setup() {
   Serial.println();
   Serial.println("Connected to WiFi network.");
   Serial.print("Connect with Telnet client to ");
-  Serial.println(WiFi.localIP(););
+  Serial.println(WiFi.localIP());
 }
 
 void loop() {
