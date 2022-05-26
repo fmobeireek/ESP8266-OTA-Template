@@ -10,7 +10,7 @@ void setupOTA(const char* hostName) {
    	ArduinoOTA.setHostname(hostName);
 
 	  // MDNS hostname
-	  if (!MDNS.begin("esp8266-clock")) {
+	  if (!MDNS.begin(hostName)) {
 		  Serial.println("Error setting up MDNS responder!");
 	  }
   
